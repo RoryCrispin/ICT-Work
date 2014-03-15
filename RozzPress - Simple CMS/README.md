@@ -1,6 +1,6 @@
 RozzPress - Simple CMS
 ======================
-Sddignment spec: 
+Assignment spec: 
 From: http://www.edexcel.com/migrationdocuments/BTEC%20Nationals%20from%202010/Unit-27-Web-Server-Scripting.pdf
 "Implement, test and document a web content management system to meet a defined need" 
 "Implement an error log for a website using web server scripting."
