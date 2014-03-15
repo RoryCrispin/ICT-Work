@@ -1,0 +1,28 @@
+BLOG_NAME:RozzPress Platform;
+BLOG_BIO:Where the chat is at;
+BLOG_ABOUT:I'm Rory, a tech & design student from Bucks, UK;
+
+POST_ID:1394659599;
+POST_TITLE:Bacon stuff; 
+POST_AUTHOR:Rozz;
+POST_DATE:March 12, 2014, 5:26 pm; 
+POST_CONTENT:Kielbasa pork pork chop, ground round pig corned beef ham hock turkey strip steak shank salami ham tail bacon sirloin. Pork strip steak fatback short loin tongue turducken chuck. Pastrami prosciutto pork fatback jerky flank chuck kielbasa drumstick pancetta shank ball tip sirloin. Swine shoulder strip steak pork loin andouille pig.Pork loin jowl ribeye t-bone chuck salami flank ham hock shankle pork belly tenderloin andouille short ribs. Tenderloin meatball chicken fatback jerky chuck short ribs salami leberkas tongue pork. Pig andouille t-bone boudin tri-tip venison spare ribs strip steak cow. Flank sausage fatback, t-bone ribeye ham boudin.;
+
+POST_ID:1394659983;
+POST_TITLE:Cupcake mix; 
+POST_AUTHOR:Ipsum;
+POST_DATE:March 12, 2014, 5:33 pm; 
+POST_CONTENT:Cookie donut sesame snaps toffee biscuit caramels. Candy applicake danish applicake. Caramels topping caramels. Soufflé biscuit cotton candy danish. Icing croissant liquorice candy canes pie. Tiramisu wafer sugar plum. Cheesecake candy lollipop gummies jelly-o gummies bonbon wafer sesame snaps. Tootsie roll gummies sweet roll topping caramels chupa chups brownie jujubes. Caramels gummies wafer biscuit danish. Topping lollipop topping sweet. Carrot cake applicake tootsie roll tart. Apple pie powder candy chocolate cake fruitcake applicake pudding.;
+
+POST_ID:1394660241;
+POST_TITLE:Youtube video; 
+POST_AUTHOR:Yt;
+POST_DATE:March 12, 2014, 5:37 pm; 
+POST_CONTENT:Embedding a youtube video like so: <iframe width="560" height="315" src="//www.youtube.com/embed/loDBIWZSack" frameborder="0" allowfullscreen></iframe>;
+
+
+POST_ID:1394702817;
+POST_TITLE:News Article; 
+POST_AUTHOR:BBC.com;
+POST_DATE:March 13, 2014, 5:26 am; 
+POST_CONTENT:<img width="624" height="351" alt="Morrisons supermarket" src="http://news.bbcimg.co.uk/media/images/73548000/jpg/_73548781_73548775.jpg" title=""></img>It said it was going to restructure to target the market between discounters and the "big four" supermarkets. But it warned that profits in the coming year would be less than £375m, about half the level last year. Chairman Sir Ian Gibson called it a "disappointing year for Morrisons" as turnover fell by 2%. Shares in Morrisons tumbled over 8% in early trade. Chief executive Dalton Philips told the BBC how the firm would restructure: "This isn't about being a discounter. This is about offering really great value. Continue reading the main story The fact is there are new entrants into the market, they're called the discounters. Customers do shop in them and we're going to recognise that Dalton Philips Morrisons chief executive "There is a tipping point where the price perception gap has just widened too far between the discounters and the big four and we're going to address that." Morrisons' online business Morrisons.com has lagged behind the big four supermarkets. Morrisons only started deliveries through online grocer Ocado in January after signing a £200m 25-year deal last year.;

@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3872869A18D3BC6B0064D79E /* NewRelicAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3872869918D3BC6B0064D79E /* NewRelicAgent.framework */; };
+		3872869C18D3BCA40064D79E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3872869B18D3BCA40064D79E /* CoreTelephony.framework */; };
+		3872869E18D3BCB30064D79E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3872869D18D3BCB30064D79E /* SystemConfiguration.framework */; };
+		387286A018D3BCC30064D79E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3872869F18D3BCC30064D79E /* libz.dylib */; };
+		3882AA1B189A588F0065C445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3882AA1A189A588F0065C445 /* Foundation.framework */; };
+		3882AA1D189A588F0065C445 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3882AA1C189A588F0065C445 /* CoreGraphics.framework */; };
+		3882AA1F189A588F0065C445 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3882AA1E189A588F0065C445 /* UIKit.framework */; };
+		3882AA25189A588F0065C445 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA23189A588F0065C445 /* InfoPlist.strings */; };
+		3882AA27189A588F0065C445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA26189A588F0065C445 /* main.m */; };
+		3882AA2B189A588F0065C445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA2A189A588F0065C445 /* AppDelegate.m */; };
+		3882AA2E189A588F0065C445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA2C189A588F0065C445 /* Main.storyboard */; };
+		3882AA31189A588F0065C445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA30189A588F0065C445 /* ViewController.m */; };
+		3882AA33189A588F0065C445 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA32189A588F0065C445 /* Images.xcassets */; };
+		3882AA3A189A588F0065C445 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3882AA39189A588F0065C445 /* XCTest.framework */; };
+		3882AA3B189A588F0065C445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3882AA1A189A588F0065C445 /* Foundation.framework */; };
+		3882AA3C189A588F0065C445 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3882AA1E189A588F0065C445 /* UIKit.framework */; };
+		3882AA44189A588F0065C445 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA42189A588F0065C445 /* InfoPlist.strings */; };
+		3882AA46189A588F0065C445 /* bankApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA45189A588F0065C445 /* bankApplicationTests.m */; };
+		3882AA83189AB5320065C445 /* cs.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA51189AB5320065C445 /* cs.yml */; };
+		3882AA84189AB5320065C445 /* de.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA52189AB5320065C445 /* de.yml */; };
+		3882AA85189AB5320065C445 /* en.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA53189AB5320065C445 /* en.yml */; };
+		3882AA86189AB5320065C445 /* fr.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA54189AB5320065C445 /* fr.yml */; };
+		3882AA87189AB5320065C445 /* nl.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA55189AB5320065C445 /* nl.yml */; };
+		3882AA88189AB5320065C445 /* pl.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA56189AB5320065C445 /* pl.yml */; };
+		3882AA89189AB5320065C445 /* ru.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA57189AB5320065C445 /* ru.yml */; };
+		3882AA8A189AB5320065C445 /* MBFaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA59189AB5320065C445 /* MBFaker.m */; };
+		3882AA8B189AB5320065C445 /* MBFakerAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA5B189AB5320065C445 /* MBFakerAddress.m */; };
+		3882AA8C189AB5320065C445 /* MBFakerCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA5D189AB5320065C445 /* MBFakerCompany.m */; };
+		3882AA8D189AB5320065C445 /* MBFakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA5F189AB5320065C445 /* MBFakerHelper.m */; };
+		3882AA8E189AB5320065C445 /* MBFakerInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA61189AB5320065C445 /* MBFakerInternet.m */; };
+		3882AA8F189AB5320065C445 /* MBFakerLorem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA63189AB5320065C445 /* MBFakerLorem.m */; };
+		3882AA90189AB5320065C445 /* MBFakerName.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA65189AB5320065C445 /* MBFakerName.m */; };
+		3882AA91189AB5320065C445 /* MBFakerPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA67189AB5320065C445 /* MBFakerPhoneNumber.m */; };
+		3882AA92189AB5320065C445 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA6C189AB5320065C445 /* LICENSE */; };
+		3882AA93189AB5320065C445 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA6D189AB5320065C445 /* README */; };
+		3882AA94189AB5320065C445 /* api.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA70189AB5320065C445 /* api.Plo */; };
+		3882AA95189AB5320065C445 /* dumper.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA71189AB5320065C445 /* dumper.Plo */; };
+		3882AA96189AB5320065C445 /* emitter.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA72189AB5320065C445 /* emitter.Plo */; };
+		3882AA97189AB5320065C445 /* loader.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA73189AB5320065C445 /* loader.Plo */; };
+		3882AA98189AB5320065C445 /* parser.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA74189AB5320065C445 /* parser.Plo */; };
+		3882AA99189AB5320065C445 /* reader.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA75189AB5320065C445 /* reader.Plo */; };
+		3882AA9A189AB5320065C445 /* scanner.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA76189AB5320065C445 /* scanner.Plo */; };
+		3882AA9B189AB5320065C445 /* writer.Plo in Resources */ = {isa = PBXBuildFile; fileRef = 3882AA77189AB5320065C445 /* writer.Plo */; };
+		3882AA9C189AB5320065C445 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA78189AB5320065C445 /* api.c */; };
+		3882AA9D189AB5320065C445 /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA79189AB5320065C445 /* dumper.c */; };
+		3882AA9E189AB5320065C445 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA7A189AB5320065C445 /* emitter.c */; };
+		3882AA9F189AB5320065C445 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA7B189AB5320065C445 /* loader.c */; };
+		3882AAA0189AB5320065C445 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA7C189AB5320065C445 /* parser.c */; };
+		3882AAA1189AB5320065C445 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA7D189AB5320065C445 /* reader.c */; };
+		3882AAA2189AB5320065C445 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA7E189AB5320065C445 /* scanner.c */; };
+		3882AAA3189AB5320065C445 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA7F189AB5320065C445 /* writer.c */; };
+		3882AAA4189AB5320065C445 /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AA82189AB5320065C445 /* YAMLSerialization.m */; };
+		3882AAA7189ABD930065C445 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AAA6189ABD930065C445 /* BankAccount.m */; };
+		3882AAAA189AC8110065C445 /* InvestmentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AAA9189AC8110065C445 /* InvestmentAccount.m */; };
+		3882AAAD189ACC160065C445 /* DebitAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AAAC189ACC160065C445 /* DebitAccount.m */; };
+		3882AAB0189ACD4D0065C445 /* CreditAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3882AAAF189ACD4D0065C445 /* CreditAccount.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3882AA3D189A588F0065C445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3882AA0F189A588F0065C445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3882AA16189A588F0065C445;
+			remoteInfo = bankApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3872869918D3BC6B0064D79E /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NewRelicAgent.framework; sourceTree = "<group>"; };
+		3872869B18D3BCA40064D79E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3872869D18D3BCB30064D79E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3872869F18D3BCC30064D79E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3882AA17189A588F0065C445 /* bankApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3882AA1A189A588F0065C445 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3882AA1C189A588F0065C445 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3882AA1E189A588F0065C445 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3882AA22189A588F0065C445 /* bankApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bankApplication-Info.plist"; sourceTree = "<group>"; };
+		3882AA24189A588F0065C445 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3882AA26189A588F0065C445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3882AA28189A588F0065C445 /* bankApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bankApplication-Prefix.pch"; sourceTree = "<group>"; };
+		3882AA29189A588F0065C445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3882AA2A189A588F0065C445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3882AA2D189A588F0065C445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3882AA2F189A588F0065C445 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3882AA30189A588F0065C445 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3882AA32189A588F0065C445 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3882AA38189A588F0065C445 /* bankApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3882AA39189A588F0065C445 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3882AA41189A588F0065C445 /* bankApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bankApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		3882AA43189A588F0065C445 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3882AA45189A588F0065C445 /* bankApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankApplicationTests.m; sourceTree = "<group>"; };
+		3882AA51189AB5320065C445 /* cs.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cs.yml; sourceTree = "<group>"; };
+		3882AA52189AB5320065C445 /* de.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = de.yml; sourceTree = "<group>"; };
+		3882AA53189AB5320065C445 /* en.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.yml; sourceTree = "<group>"; };
+		3882AA54189AB5320065C445 /* fr.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fr.yml; sourceTree = "<group>"; };
+		3882AA55189AB5320065C445 /* nl.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nl.yml; sourceTree = "<group>"; };
+		3882AA56189AB5320065C445 /* pl.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pl.yml; sourceTree = "<group>"; };
+		3882AA57189AB5320065C445 /* ru.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ru.yml; sourceTree = "<group>"; };
+		3882AA58189AB5320065C445 /* MBFaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFaker.h; sourceTree = "<group>"; };
+		3882AA59189AB5320065C445 /* MBFaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFaker.m; sourceTree = "<group>"; };
+		3882AA5A189AB5320065C445 /* MBFakerAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerAddress.h; sourceTree = "<group>"; };
+		3882AA5B189AB5320065C445 /* MBFakerAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerAddress.m; sourceTree = "<group>"; };
+		3882AA5C189AB5320065C445 /* MBFakerCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerCompany.h; sourceTree = "<group>"; };
+		3882AA5D189AB5320065C445 /* MBFakerCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerCompany.m; sourceTree = "<group>"; };
+		3882AA5E189AB5320065C445 /* MBFakerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerHelper.h; sourceTree = "<group>"; };
+		3882AA5F189AB5320065C445 /* MBFakerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerHelper.m; sourceTree = "<group>"; };
+		3882AA60189AB5320065C445 /* MBFakerInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerInternet.h; sourceTree = "<group>"; };
+		3882AA61189AB5320065C445 /* MBFakerInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerInternet.m; sourceTree = "<group>"; };
+		3882AA62189AB5320065C445 /* MBFakerLorem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerLorem.h; sourceTree = "<group>"; };
+		3882AA63189AB5320065C445 /* MBFakerLorem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerLorem.m; sourceTree = "<group>"; };
+		3882AA64189AB5320065C445 /* MBFakerName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerName.h; sourceTree = "<group>"; };
+		3882AA65189AB5320065C445 /* MBFakerName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerName.m; sourceTree = "<group>"; };
+		3882AA66189AB5320065C445 /* MBFakerPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFakerPhoneNumber.h; sourceTree = "<group>"; };
+		3882AA67189AB5320065C445 /* MBFakerPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFakerPhoneNumber.m; sourceTree = "<group>"; };
+		3882AA69189AB5320065C445 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		3882AA6B189AB5320065C445 /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		3882AA6C189AB5320065C445 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3882AA6D189AB5320065C445 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3882AA70189AB5320065C445 /* api.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = api.Plo; sourceTree = "<group>"; };
+		3882AA71189AB5320065C445 /* dumper.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dumper.Plo; sourceTree = "<group>"; };
+		3882AA72189AB5320065C445 /* emitter.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emitter.Plo; sourceTree = "<group>"; };
+		3882AA73189AB5320065C445 /* loader.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loader.Plo; sourceTree = "<group>"; };
+		3882AA74189AB5320065C445 /* parser.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = parser.Plo; sourceTree = "<group>"; };
+		3882AA75189AB5320065C445 /* reader.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reader.Plo; sourceTree = "<group>"; };
+		3882AA76189AB5320065C445 /* scanner.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scanner.Plo; sourceTree = "<group>"; };
+		3882AA77189AB5320065C445 /* writer.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = writer.Plo; sourceTree = "<group>"; };
+		3882AA78189AB5320065C445 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		3882AA79189AB5320065C445 /* dumper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dumper.c; sourceTree = "<group>"; };
+		3882AA7A189AB5320065C445 /* emitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = emitter.c; sourceTree = "<group>"; };
+		3882AA7B189AB5320065C445 /* loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loader.c; sourceTree = "<group>"; };
+		3882AA7C189AB5320065C445 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		3882AA7D189AB5320065C445 /* reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
+		3882AA7E189AB5320065C445 /* scanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		3882AA7F189AB5320065C445 /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
+		3882AA80189AB5320065C445 /* yaml_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml_private.h; sourceTree = "<group>"; };
+		3882AA81189AB5320065C445 /* YAMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLSerialization.h; sourceTree = "<group>"; };
+		3882AA82189AB5320065C445 /* YAMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMLSerialization.m; sourceTree = "<group>"; };
+		3882AAA5189ABD930065C445 /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		3882AAA6189ABD930065C445 /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		3882AAA8189AC8110065C445 /* InvestmentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestmentAccount.h; sourceTree = "<group>"; };
+		3882AAA9189AC8110065C445 /* InvestmentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestmentAccount.m; sourceTree = "<group>"; };
+		3882AAAB189ACC160065C445 /* DebitAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebitAccount.h; sourceTree = "<group>"; };
+		3882AAAC189ACC160065C445 /* DebitAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebitAccount.m; sourceTree = "<group>"; };
+		3882AAAE189ACD4D0065C445 /* CreditAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditAccount.h; sourceTree = "<group>"; };
+		3882AAAF189ACD4D0065C445 /* CreditAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditAccount.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3882AA14189A588F0065C445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387286A018D3BCC30064D79E /* libz.dylib in Frameworks */,
+				3872869E18D3BCB30064D79E /* SystemConfiguration.framework in Frameworks */,
+				3872869C18D3BCA40064D79E /* CoreTelephony.framework in Frameworks */,
+				3882AA1D189A588F0065C445 /* CoreGraphics.framework in Frameworks */,
+				3882AA1F189A588F0065C445 /* UIKit.framework in Frameworks */,
+				3882AA1B189A588F0065C445 /* Foundation.framework in Frameworks */,
+				3872869A18D3BC6B0064D79E /* NewRelicAgent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882AA35189A588F0065C445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882AA3A189A588F0065C445 /* XCTest.framework in Frameworks */,
+				3882AA3C189A588F0065C445 /* UIKit.framework in Frameworks */,
+				3882AA3B189A588F0065C445 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3882AA0E189A588F0065C445 = {
+			isa = PBXGroup;
+			children = (
+				3882AA20189A588F0065C445 /* bankApplication */,
+				3882AA3F189A588F0065C445 /* bankApplicationTests */,
+				3882AA19189A588F0065C445 /* Frameworks */,
+				3882AA18189A588F0065C445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3882AA18189A588F0065C445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA17189A588F0065C445 /* bankApplication.app */,
+				3882AA38189A588F0065C445 /* bankApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3882AA19189A588F0065C445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3872869F18D3BCC30064D79E /* libz.dylib */,
+				3872869D18D3BCB30064D79E /* SystemConfiguration.framework */,
+				3872869B18D3BCA40064D79E /* CoreTelephony.framework */,
+				3872869918D3BC6B0064D79E /* NewRelicAgent.framework */,
+				3882AA4F189AB5320065C445 /* MBFaker */,
+				3882AA1A189A588F0065C445 /* Foundation.framework */,
+				3882AA1C189A588F0065C445 /* CoreGraphics.framework */,
+				3882AA1E189A588F0065C445 /* UIKit.framework */,
+				3882AA39189A588F0065C445 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3882AA20189A588F0065C445 /* bankApplication */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA29189A588F0065C445 /* AppDelegate.h */,
+				3882AA2A189A588F0065C445 /* AppDelegate.m */,
+				3882AA2C189A588F0065C445 /* Main.storyboard */,
+				3882AA2F189A588F0065C445 /* ViewController.h */,
+				3882AA30189A588F0065C445 /* ViewController.m */,
+				3882AAA5189ABD930065C445 /* BankAccount.h */,
+				3882AAA6189ABD930065C445 /* BankAccount.m */,
+				3882AAA8189AC8110065C445 /* InvestmentAccount.h */,
+				3882AAA9189AC8110065C445 /* InvestmentAccount.m */,
+				3882AAAB189ACC160065C445 /* DebitAccount.h */,
+				3882AAAC189ACC160065C445 /* DebitAccount.m */,
+				3882AAAE189ACD4D0065C445 /* CreditAccount.h */,
+				3882AAAF189ACD4D0065C445 /* CreditAccount.m */,
+				3882AA32189A588F0065C445 /* Images.xcassets */,
+				3882AA21189A588F0065C445 /* Supporting Files */,
+			);
+			path = bankApplication;
+			sourceTree = "<group>";
+		};
+		3882AA21189A588F0065C445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA22189A588F0065C445 /* bankApplication-Info.plist */,
+				3882AA23189A588F0065C445 /* InfoPlist.strings */,
+				3882AA26189A588F0065C445 /* main.m */,
+				3882AA28189A588F0065C445 /* bankApplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3882AA3F189A588F0065C445 /* bankApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA45189A588F0065C445 /* bankApplicationTests.m */,
+				3882AA40189A588F0065C445 /* Supporting Files */,
+			);
+			path = bankApplicationTests;
+			sourceTree = "<group>";
+		};
+		3882AA40189A588F0065C445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA41189A588F0065C445 /* bankApplicationTests-Info.plist */,
+				3882AA42189A588F0065C445 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3882AA4F189AB5320065C445 /* MBFaker */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA50189AB5320065C445 /* Locales */,
+				3882AA58189AB5320065C445 /* MBFaker.h */,
+				3882AA59189AB5320065C445 /* MBFaker.m */,
+				3882AA5A189AB5320065C445 /* MBFakerAddress.h */,
+				3882AA5B189AB5320065C445 /* MBFakerAddress.m */,
+				3882AA5C189AB5320065C445 /* MBFakerCompany.h */,
+				3882AA5D189AB5320065C445 /* MBFakerCompany.m */,
+				3882AA5E189AB5320065C445 /* MBFakerHelper.h */,
+				3882AA5F189AB5320065C445 /* MBFakerHelper.m */,
+				3882AA60189AB5320065C445 /* MBFakerInternet.h */,
+				3882AA61189AB5320065C445 /* MBFakerInternet.m */,
+				3882AA62189AB5320065C445 /* MBFakerLorem.h */,
+				3882AA63189AB5320065C445 /* MBFakerLorem.m */,
+				3882AA64189AB5320065C445 /* MBFakerName.h */,
+				3882AA65189AB5320065C445 /* MBFakerName.m */,
+				3882AA66189AB5320065C445 /* MBFakerPhoneNumber.h */,
+				3882AA67189AB5320065C445 /* MBFakerPhoneNumber.m */,
+				3882AA68189AB5320065C445 /* yaml-0.1.3 */,
+				3882AA81189AB5320065C445 /* YAMLSerialization.h */,
+				3882AA82189AB5320065C445 /* YAMLSerialization.m */,
+			);
+			path = MBFaker;
+			sourceTree = "<group>";
+		};
+		3882AA50189AB5320065C445 /* Locales */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA51189AB5320065C445 /* cs.yml */,
+				3882AA52189AB5320065C445 /* de.yml */,
+				3882AA53189AB5320065C445 /* en.yml */,
+				3882AA54189AB5320065C445 /* fr.yml */,
+				3882AA55189AB5320065C445 /* nl.yml */,
+				3882AA56189AB5320065C445 /* pl.yml */,
+				3882AA57189AB5320065C445 /* ru.yml */,
+			);
+			path = Locales;
+			sourceTree = "<group>";
+		};
+		3882AA68189AB5320065C445 /* yaml-0.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA69189AB5320065C445 /* config.h */,
+				3882AA6A189AB5320065C445 /* include */,
+				3882AA6C189AB5320065C445 /* LICENSE */,
+				3882AA6D189AB5320065C445 /* README */,
+				3882AA6E189AB5320065C445 /* src */,
+			);
+			path = "yaml-0.1.3";
+			sourceTree = "<group>";
+		};
+		3882AA6A189AB5320065C445 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA6B189AB5320065C445 /* yaml.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3882AA6E189AB5320065C445 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA6F189AB5320065C445 /* .deps */,
+				3882AA78189AB5320065C445 /* api.c */,
+				3882AA79189AB5320065C445 /* dumper.c */,
+				3882AA7A189AB5320065C445 /* emitter.c */,
+				3882AA7B189AB5320065C445 /* loader.c */,
+				3882AA7C189AB5320065C445 /* parser.c */,
+				3882AA7D189AB5320065C445 /* reader.c */,
+				3882AA7E189AB5320065C445 /* scanner.c */,
+				3882AA7F189AB5320065C445 /* writer.c */,
+				3882AA80189AB5320065C445 /* yaml_private.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3882AA6F189AB5320065C445 /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				3882AA70189AB5320065C445 /* api.Plo */,
+				3882AA71189AB5320065C445 /* dumper.Plo */,
+				3882AA72189AB5320065C445 /* emitter.Plo */,
+				3882AA73189AB5320065C445 /* loader.Plo */,
+				3882AA74189AB5320065C445 /* parser.Plo */,
+				3882AA75189AB5320065C445 /* reader.Plo */,
+				3882AA76189AB5320065C445 /* scanner.Plo */,
+				3882AA77189AB5320065C445 /* writer.Plo */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3882AA16189A588F0065C445 /* bankApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3882AA49189A588F0065C445 /* Build configuration list for PBXNativeTarget "bankApplication" */;
+			buildPhases = (
+				3882AA13189A588F0065C445 /* Sources */,
+				3882AA14189A588F0065C445 /* Frameworks */,
+				3882AA15189A588F0065C445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bankApplication;
+			productName = bankApplication;
+			productReference = 3882AA17189A588F0065C445 /* bankApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3882AA37189A588F0065C445 /* bankApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3882AA4C189A588F0065C445 /* Build configuration list for PBXNativeTarget "bankApplicationTests" */;
+			buildPhases = (
+				3882AA34189A588F0065C445 /* Sources */,
+				3882AA35189A588F0065C445 /* Frameworks */,
+				3882AA36189A588F0065C445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3882AA3E189A588F0065C445 /* PBXTargetDependency */,
+			);
+			name = bankApplicationTests;
+			productName = bankApplicationTests;
+			productReference = 3882AA38189A588F0065C445 /* bankApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3882AA0F189A588F0065C445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = toroCam;
+				TargetAttributes = {
+					3882AA37189A588F0065C445 = {
+						TestTargetID = 3882AA16189A588F0065C445;
+					};
+				};
+			};
+			buildConfigurationList = 3882AA12189A588F0065C445 /* Build configuration list for PBXProject "bankApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3882AA0E189A588F0065C445;
+			productRefGroup = 3882AA18189A588F0065C445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3882AA16189A588F0065C445 /* bankApplication */,
+				3882AA37189A588F0065C445 /* bankApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3882AA15189A588F0065C445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882AA9B189AB5320065C445 /* writer.Plo in Resources */,
+				3882AA93189AB5320065C445 /* README in Resources */,
+				3882AA87189AB5320065C445 /* nl.yml in Resources */,
+				3882AA94189AB5320065C445 /* api.Plo in Resources */,
+				3882AA96189AB5320065C445 /* emitter.Plo in Resources */,
+				3882AA98189AB5320065C445 /* parser.Plo in Resources */,
+				3882AA84189AB5320065C445 /* de.yml in Resources */,
+				3882AA95189AB5320065C445 /* dumper.Plo in Resources */,
+				3882AA85189AB5320065C445 /* en.yml in Resources */,
+				3882AA99189AB5320065C445 /* reader.Plo in Resources */,
+				3882AA83189AB5320065C445 /* cs.yml in Resources */,
+				3882AA33189A588F0065C445 /* Images.xcassets in Resources */,
+				3882AA92189AB5320065C445 /* LICENSE in Resources */,
+				3882AA97189AB5320065C445 /* loader.Plo in Resources */,
+				3882AA89189AB5320065C445 /* ru.yml in Resources */,
+				3882AA86189AB5320065C445 /* fr.yml in Resources */,
+				3882AA9A189AB5320065C445 /* scanner.Plo in Resources */,
+				3882AA25189A588F0065C445 /* InfoPlist.strings in Resources */,
+				3882AA2E189A588F0065C445 /* Main.storyboard in Resources */,
+				3882AA88189AB5320065C445 /* pl.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882AA36189A588F0065C445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882AA44189A588F0065C445 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3882AA13189A588F0065C445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882AAA1189AB5320065C445 /* reader.c in Sources */,
+				3882AAAD189ACC160065C445 /* DebitAccount.m in Sources */,
+				3882AA9C189AB5320065C445 /* api.c in Sources */,
+				3882AA8A189AB5320065C445 /* MBFaker.m in Sources */,
+				3882AAA4189AB5320065C445 /* YAMLSerialization.m in Sources */,
+				3882AAAA189AC8110065C445 /* InvestmentAccount.m in Sources */,
+				3882AA90189AB5320065C445 /* MBFakerName.m in Sources */,
+				3882AA31189A588F0065C445 /* ViewController.m in Sources */,
+				3882AA8F189AB5320065C445 /* MBFakerLorem.m in Sources */,
+				3882AAA7189ABD930065C445 /* BankAccount.m in Sources */,
+				3882AAB0189ACD4D0065C445 /* CreditAccount.m in Sources */,
+				3882AAA3189AB5320065C445 /* writer.c in Sources */,
+				3882AA8D189AB5320065C445 /* MBFakerHelper.m in Sources */,
+				3882AAA0189AB5320065C445 /* parser.c in Sources */,
+				3882AA9D189AB5320065C445 /* dumper.c in Sources */,
+				3882AA8C189AB5320065C445 /* MBFakerCompany.m in Sources */,
+				3882AAA2189AB5320065C445 /* scanner.c in Sources */,
+				3882AA2B189A588F0065C445 /* AppDelegate.m in Sources */,
+				3882AA8E189AB5320065C445 /* MBFakerInternet.m in Sources */,
+				3882AA27189A588F0065C445 /* main.m in Sources */,
+				3882AA8B189AB5320065C445 /* MBFakerAddress.m in Sources */,
+				3882AA9E189AB5320065C445 /* emitter.c in Sources */,
+				3882AA9F189AB5320065C445 /* loader.c in Sources */,
+				3882AA91189AB5320065C445 /* MBFakerPhoneNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882AA34189A588F0065C445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882AA46189A588F0065C445 /* bankApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3882AA3E189A588F0065C445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3882AA16189A588F0065C445 /* bankApplication */;
+			targetProxy = 3882AA3D189A588F0065C445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3882AA23189A588F0065C445 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3882AA24189A588F0065C445 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3882AA2C189A588F0065C445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3882AA2D189A588F0065C445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3882AA42189A588F0065C445 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3882AA43189A588F0065C445 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3882AA47189A588F0065C445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3882AA48189A588F0065C445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3882AA4A189A588F0065C445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Rozz/Documents/GitHub/bankApplication,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bankApplication/bankApplication-Prefix.pch";
+				INFOPLIST_FILE = "bankApplication/bankApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3882AA4B189A588F0065C445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Rozz/Documents/GitHub/bankApplication,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bankApplication/bankApplication-Prefix.pch";
+				INFOPLIST_FILE = "bankApplication/bankApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3882AA4D189A588F0065C445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bankApplication.app/bankApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bankApplication/bankApplication-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bankApplicationTests/bankApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3882AA4E189A588F0065C445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bankApplication.app/bankApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bankApplication/bankApplication-Prefix.pch";
+				INFOPLIST_FILE = "bankApplicationTests/bankApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3882AA12189A588F0065C445 /* Build configuration list for PBXProject "bankApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882AA47189A588F0065C445 /* Debug */,
+				3882AA48189A588F0065C445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3882AA49189A588F0065C445 /* Build configuration list for PBXNativeTarget "bankApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882AA4A189A588F0065C445 /* Debug */,
+				3882AA4B189A588F0065C445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3882AA4C189A588F0065C445 /* Build configuration list for PBXNativeTarget "bankApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882AA4D189A588F0065C445 /* Debug */,
+				3882AA4E189A588F0065C445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3882AA0F189A588F0065C445 /* Project object */;
+}
